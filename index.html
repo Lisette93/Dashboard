@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <span id="date-time"></span>
+        
+    </header>
+
+    <main><h1>Lisettes Dashboard</h1>
+
+    <div class="cards-container">
+          
+
+    <div  class ="card links">
+        <h2>Snabblänkar</h2>
+            <ul class="links-alternative">
+                <li><i class="fa-brands fa-google"></i><a href="https://www.google.com/">Google</a></li>
+                <li><i class="fa-solid fa-newspaper"></i><a href="https://www.aftonbladet.se/">Aftonbladet</a></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <button id="add-link-btn"><i class="fa-solid fa-circle-plus"></i>  Lägg till länk</button>
+    </div>
+
+    <div class="card weather">
+        <h2>Dagensväder</h2>
+        <div id="weather-content"></div>
+    </div>
+
+
+    <div class="card horoscope">
+        <h2>Dagens Horoskop</h2>
+        <div id="horoscope-content">Laddar horoskop...</div>
+      </div>
+      
+
+
+    <div class="card notes">
+        <h2>Anteckningar</h2>
+    <textarea name="notes-area" id="notes-area" placeholder="Skriv dina anteckningar här...">
+    </textarea></div>
+    </div>
+    </main>
+   
+
+    <footer>
+        <button id="random-bg-btn"> <i class="fa-solid fa-rotate-right"></i> Ny bakgrundsbild</button>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
