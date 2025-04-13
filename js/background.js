@@ -17,7 +17,7 @@ function setRandomBackground() {
 
   export function initBackground() {
     // Set an initial random background
-    setRandomBackground();
+    // setRandomBackground();
     // Attach an event listener to the random background button
     const btn = document.getElementById('random-bg-btn');
     if (btn) {
