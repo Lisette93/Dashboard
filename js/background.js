@@ -4,10 +4,10 @@ Manages the random background functionality.*/
 
 
 const backgroundImages = [
-    "images/img1.jpg",
-    "images/img2.jpg",
-    "images/img3.jpg",
-    "images/img4.jpg",
+    "/images/img1.jpg",
+    "/images/img2.jpg",
+    "/images/img3.jpg",
+    "/images/img4.jpg",
 ];
 
 function setRandomBackground() {
@@ -17,7 +17,7 @@ function setRandomBackground() {
 
   export function initBackground() {
     // Set an initial random background
-    // setRandomBackground();
+    setRandomBackground();
     // Attach an event listener to the random background button
     const btn = document.getElementById('random-bg-btn');
     if (btn) {
