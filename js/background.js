@@ -2,14 +2,12 @@
 
 Manages the random background functionality.*/
 
-const repoName = "Dashboard";
-
 
 const backgroundImages = [
-    `${repoName}/images/img1.jpg`,
-    `${repoName}/images/img2.jpg`,
-    `${repoName}/images/img3.jpg`,
-    `${repoName}/images/img4.jpg`,
+    "images/img1.jpg",
+    "images/img2.jpg",
+    "images/img3.jpg",
+    "images/img4.jpg",
 ];
 
 function setRandomBackground() {
