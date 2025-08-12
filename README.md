@@ -1,3 +1,5 @@
+<img width="800" alt="bild" src="https://github.com/user-attachments/assets/da8c36b2-8836-4e14-80e5-a220dd9ecdd2" />
+
 # Dashboard
 
 A personal dashboard web app that displays current weather, a daily horoscope, and customizable quick links.  
